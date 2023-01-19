@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+.bg-container {
+	background-color: #ffc2a0;
+	padding: 1rem;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.todo-wrapper {
+	background-color: #ffffff;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+}
+h1 {
+	color: #ff8542;
+	font-size: 1.8rem;
+	margin-bottom: 3.5rem;
+}
+.todo-items-container {
+	list-style: none;
+}
+
+@media screen and (min-width: 767px) {
+	.todo-wrapper {
+		padding: 4rem;
+	}
+}
